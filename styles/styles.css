@@ -1,6 +1,35 @@
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+        background-color: steelblue;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
 }
 
 main {
@@ -26,12 +55,17 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffff;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
-
 img {
     width: 150px;
     height: auto;
