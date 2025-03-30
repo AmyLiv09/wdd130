@@ -13,7 +13,7 @@
 body {
     font-family: 'Atma', cursive;
     background-color: var(--secondary-color);
-    color: var(--text-color);
+    color: #f1f1f1;
     line-height: 1.6;
     margin: 0 auto;
     padding: 10px;
@@ -127,7 +127,7 @@ section {
 
 .history {
     padding: 20px;
-    background-color: white;
+    background-color: #23638b;
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--shadow-color);
     text-align: center;
@@ -170,7 +170,7 @@ section h2 {
     text-align: center;
     margin: 20px 0;
     padding: 20px;
-    background-color: white;
+    background-color: #23638b;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
