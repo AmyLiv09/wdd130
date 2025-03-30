@@ -1,8 +1,8 @@
 :root {
-    --primary-color:#23638b;
+    --primary-color:#2e80b3;
     --secondary-color: #EC3440;
-    --accent1-color: #ffffff;
-    --accent2-color: #E98077;
+    --accent1-color: #312a2a;
+    --accent2-color: #0a0606;
 }
 * {
     margin: 0;
@@ -39,7 +39,7 @@ header {
 
 h1 {
     grid-area: heading;
-    color: white;
+    color: #FFFF;
     font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
@@ -103,7 +103,7 @@ nav a:focus, nav a:hover {
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(38, 29, 68, 0.8);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px var(--shadow-color);
@@ -219,7 +219,7 @@ section h2 {
 }
 
 footer {
-    background-color: var(--primary-color);
+    background-color: #23638b;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
