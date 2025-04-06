@@ -263,6 +263,7 @@ footer {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 2rem;
+    border: 0;
 }
 
 /* Employee Gallery */
