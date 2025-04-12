@@ -294,7 +294,6 @@ footer {
     object-fit: cover;
 }
 
-/* Contact Form */
 form {
     background-color: #ffffff;
     padding: 2rem;
@@ -316,7 +315,6 @@ fieldset {
     line-height: 1.5;
 }
 
-/* Enhanced textarea styling */
 textarea {
     width: 100%;
     height: 160px;
@@ -329,7 +327,6 @@ textarea {
     line-height: 1.5;
 }
 
-/* Slightly more spacing between form items */
 .form-item {
     margin-bottom: 1.5rem;
 }
@@ -369,3 +366,176 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #b72a35;
 }
+.cta {
+    background-color: #ec3440;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta .btn {
+    background-color: #ffffff;
+    color: var(--secondary-color);
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #f4cccc;
+}
+
+.newsletter {
+    background-color: white;
+    color: #333;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px var(--shadow-color);
+    margin: 2rem 0;
+}
+
+.newsletter h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #1c5d8a;
+}
+
+.home-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--accent1-color); /* Dark background */
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.home-info {
+    flex: 1 1 45%; 
+    background-color: rgba(51, 24, 24, 0.1); 
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}.home-info p {
+    color: #bd3d3d;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    height: 500px; /* or whatever height fits best */
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Overlay */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.5); /* semi-transparent black */
+    z-index: 1;
+}
+
+/* Content over hero */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    white-space: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+/* Button */
+.hero-btn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #b72a35;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    margin: 2rem 0;
+    align-items: start;
+  }
+  
+  .info-grid .info {
+    text-align: center;
+    color: #333;
+  }
