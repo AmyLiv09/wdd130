@@ -527,7 +527,7 @@ button[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    background-color: white;
+    background-color: rgb(238, 214, 214);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--shadow-color);
