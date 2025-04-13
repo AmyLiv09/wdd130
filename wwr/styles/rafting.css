@@ -537,6 +537,10 @@ button[type="submit"]:hover {
     margin: 2rem 0;
   }
   
+  .trip-showcase h2 {
+    color: var(--primary-color);
+    text-align: center;
+  }
   
   .trip-card {
     background-color: var(--primary-color);
@@ -552,6 +556,7 @@ button[type="submit"]:hover {
     border-radius: 10px;
   }
   .trip-table table {
+    text-align: center;
     width: 100%;
     border-collapse: collapse;
     margin-top: 2rem;
@@ -574,10 +579,16 @@ button[type="submit"]:hover {
 }
 
 .trip-table th {
+    text-align: center;
     background-color: var(--primary-color);
     color: white;
     font-weight: bold;
 }
+.trip-table h2 {
+    text-align: center;
+    color: var(--primary-color);  
+    font-weight: bold;
+  }
 
 .cta .btn {
     background-color: #ffffff;
