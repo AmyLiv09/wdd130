@@ -140,10 +140,8 @@ section {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    /* Adds space between the items */
     margin-top: 20px;
     flex-wrap: wrap;
-    /* Ensures responsiveness on smaller screens */
 }
 
 .history-text {
@@ -159,7 +157,6 @@ section {
 
 .history-image img {
     max-width: 80%;
-    /* Ensures the image is responsive and doesn't take too much space */
     height: auto;
     border-radius: 10px;
 }
@@ -168,7 +165,7 @@ section h2 {
     font-family: 'Athiti', sans-serif;
     font-size: 2rem;
     margin-bottom: 10px;
-    color: var(--accent2-color);
+    color: #f1f1f1;
 }
 
 .adventure {
@@ -183,7 +180,6 @@ section h2 {
 .adventure-content {
     display: flex;
     align-items: flex-start;
-    /* Align content to the top */
     justify-content: flex-start;
     gap: 20px;
 }
@@ -198,11 +194,8 @@ section h2 {
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
-    /* Evenly spaces images */
     gap: 10px;
-    /* Reduced gap between images */
     flex-wrap: nowrap;
-    /* Prevent images from wrapping onto the next line */
     align-items: center;
     margin: 0 auto;
 }
@@ -216,7 +209,6 @@ section h2 {
 
 .adventure-gallery img {
     width: 100%;
-    /* Ensure images take up 100% of the figure's width */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -267,7 +259,6 @@ footer {
     border: 0;
 }
 
-/* Employee Gallery */
 .employees {
     background-color: #bb0909;
     padding: 1.5rem;
