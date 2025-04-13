@@ -566,13 +566,13 @@ button[type="submit"]:hover {
     margin-top: 2rem;
     box-shadow: 0 4px 8px var(--shadow-color);
   }
-  
+
   .trip-table th,
 .trip-table td {
   padding: 1rem;
   border: 1px solid #ccc;
   color: white;
-  word-wrap: break-word; /* In case content gets long */
+  word-wrap: break-word; 
 }
 
   
