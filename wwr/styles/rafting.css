@@ -1,6 +1,6 @@
 :root {
     --primary-color: #2e80b3;
-    --secondary-color: #EC3440;
+    --secondary-color: #c62828;
     --accent1-color: #312a2a;
     --accent2-color: #0a0606;
 }
@@ -568,14 +568,13 @@ button[type="submit"]:hover {
     box-shadow: 0 4px 8px var(--shadow-color);
   }
   
-  .trip-table th, .trip-table td {
-    padding: 1rem;
-    border: 1px solid #ccc;
-    text-align: left;
-    background-color: rgb(245, 28, 28);
-  }
-  
-  .trip-table th {
-    background-color: var(--primary-color);
+  .trip-table td {
+    background-color: #b71c1c;  
+    color: white;               
+    font-weight: bold;          
+}
+.trip-table th {
+    background-color: var(--primary-color);  
     color: white;
-  }
+}
+  
