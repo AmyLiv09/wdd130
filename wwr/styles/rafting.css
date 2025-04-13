@@ -229,7 +229,7 @@ section h2 {
 }
 
 footer {
-    background-color: #23638b;
+    background-color: #123456;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
@@ -570,11 +570,11 @@ button[type="submit"]:hover {
   .trip-table td {
     background-color: var(--secondary-color);  
     color: white;               
-    font-weight: bold;          
+         
 }
 
 .trip-table th,
-footer {
+{
     background-color: var(--primary-color);
     color: white;
 }
