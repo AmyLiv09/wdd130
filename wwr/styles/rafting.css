@@ -567,17 +567,27 @@ button[type="submit"]:hover {
     box-shadow: 0 4px 8px var(--shadow-color);
   }
   
+  .trip-table th,
+.trip-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  color: white;
+  word-wrap: break-word; /* In case content gets long */
+}
+
+  
   .trip-table td {
     background-color: var(--secondary-color);  
     color: white;               
          
 }
 
-.trip-table th,
-{
+.trip-table th {
     background-color: var(--primary-color);
     color: white;
+    font-weight: bold;
 }
+
 .cta .btn {
     background-color: #ffffff;
     color: #8b1c1c; 
